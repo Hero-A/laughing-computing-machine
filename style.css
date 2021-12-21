@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-size:cover ;
+    background-color: goldenrod;
+}
+
+h1{
+    color: rgb(0, 247, 255);
+    background-color: rgb(26, 91, 211);
+    line-height: 2;
+}
+
+#show_sketch{
+    float:right;
+    margin-top: 19px;
+}
+
+canvas{
+    border: 10px ridge royalblue;
+    border-radius: 14px;
+    animation-name: example;
+    animation-duration: 10s;
+    margin-top: 85px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 3px 3px 40px cyan}
+    to{box-shadow: 4px 3px 40px royalblue};
+}
+
+p{
+    font-size: 20;
+}
+
